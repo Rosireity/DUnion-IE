@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="模块核心">
+      <UniqueIdentifier>{e7d98800-a04f-4483-9b2b-6beda82df92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="符号信息">
+      <UniqueIdentifier>{c76bd642-46f6-42a0-9c4b-bd429337dab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js">
+      <UniqueIdentifier>{7094a73a-5782-4480-99ae-787a62e22b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="符号工具">
+      <UniqueIdentifier>{61d2bf28-9062-4877-b4ca-da0e54480e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{73d26865-e447-4e0f-99bb-d6a40126a19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tick">
+      <UniqueIdentifier>{62ff113f-a2d6-4a11-9c20-5281e2809ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{e6780307-6cdb-450b-84de-5d0ec3d87eb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BDS内容.hpp">
+      <Filter>模块核心</Filter>
+    </ClInclude>
+    <ClInclude Include="预编译头.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="符号定位.hpp">
+      <Filter>符号信息</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\SimpleForm.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="tick\tick.h">
+      <Filter>tick</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net.h">
+      <Filter>net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="预编译头.cpp">
+      <Filter>其他文件</Filter>
+    </ClCompile>
+    <ClCompile Include="插件模块.cpp">
+      <Filter>模块核心</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\SimpleForm.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="tick\tick.cpp">
+      <Filter>tick</Filter>
+    </ClCompile>
+    <ClCompile Include="net\net.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="js\example.js">
+      <Filter>js</Filter>
+    </None>
+    <None Include="MCBDS插件开发助手.zip">
+      <Filter>符号工具</Filter>
+    </None>
+    <None Include="js\visitor.js">
+      <Filter>js</Filter>
+    </None>
+    <None Include="js\testcase.js">
+      <Filter>js</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="js\帮助.txt">
+      <Filter>js</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
